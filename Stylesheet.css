@@ -1,0 +1,549 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: Arial;
+        font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    border: border-box; 
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    width:auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(226, 226, 231);
+    padding: 0px calc(11% + 11px);
+}
+.nav-logo {
+    height:65px;
+    width:150px;
+    margin-right: 11px;
+}
+.logo {
+    background-image: url("Icons/Swiggy_logo.png");
+    background-size:cover;
+    height: 60px;
+    width: 158px; 
+}
+.nav-location {
+    height: auto;
+    width: 430px;
+    display: flex;
+    border-left: 1px solid rgb(226, 226, 231);
+    padding: 4px 0px 4px 19px;
+}
+
+.location-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto 0px;
+    width: 100%;  
+}
+
+.arrow-icon {
+    background-image: url("Icons/arrow.png");
+    background-size:cover;
+    height: 25px;
+    width: 50px;
+}
+.location-text {
+    width:603px;
+    margin: auto 4px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    display:flex;
+}
+/* .down-arrow-icon {
+   color: #f25900;
+} */
+.dropArrow-icon {
+    width: 100%;
+    height: 100%;
+}
+.down-arrow-icon {
+    background-image: url("Icons/droparrow.png");
+    background-size:cover;
+    height: 9px;
+    width: 12px;
+}
+.nav-searchbar {
+    margin: auto;
+    width: 100%;
+}
+.search-container {
+    margin: auto 0px auto auto;
+    height: 56px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgb(240, 240, 245);
+    padding-left: 10px;
+    max-width: 496px;
+    min-width: 360px;
+    outline:none;
+}
+.button-text {
+    -webkit-font-smoothing: antialiased;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.45);
+    padding-left: 2px;
+    display: inline-block;
+    background-color: rgb(240, 240, 245);
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    outline:none;
+}
+.search-Icon {
+    background-image: url("Icons/searchbar.png");
+    background-size:cover;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 18px;
+    height: 18px;
+}
+.nav-person {
+    flex-shrink: 0;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px auto 23px;
+}
+.person-icon {
+    width: 48px;
+    height: 48px;
+}
+.Plogo {
+    background-image: url("Icons/person_logo.png");
+    background-size:cover;
+    height: 60px;
+    width: 60px;
+}
+
+.second-container {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to top, #c9bcf4 0%, #ffffff 96%);
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secondC-text {
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    text-align: center;
+    width:300px;
+    margin-top: 30px;
+    height: 145px;
+    max-width: 300px;
+    text-align: center; 
+    margin-right: 26px;
+    
+}
+
+.texth1 {
+    font-size: 48px;
+    line-height: 45px;
+    font-weight: 950;
+    width:auto;
+    text-align: left;
+    color: #383947;
+}
+
+.secondC-logo {
+    height:160px;
+    width:250px;
+    margin-right: 11%;
+    margin-right: 240px;
+    margin-bottom: 80px;
+    
+}
+
+.foodlogo {
+    background-image: url("Icons/secondfood-logo.png");
+    background-size:cover;
+    height: 170%;
+    width: 200%;
+}
+
+.Food-container {
+    margin-left: calc(11% + 39px);
+    margin-right: calc(11% + 39px);
+    margin-top: 1.5%;
+}
+
+.foodCollection{
+    padding: 16px;
+    width: 1143px;
+    height:256px;
+}
+
+.foodtext {
+     width: 1124px;
+     height: 30px;
+}
+.Foodtitle {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.foodIconCollection {
+    width: 1143px;
+    height: 180px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.IconRows {
+    padding-top: 0px;
+    display: flex;
+}
+.FoodIcon {
+    display: block;
+    height:180px;
+    width: 184px;
+}
+.FoodImg {
+    width: 144px;
+    height:180px;
+}
+.horizontalLine {
+    border: 1px solid rgb(240, 240, 245);
+    margin: 32px calc(10% + 52px);
+}
+
+.foodIconCollection1 {
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 18px;
+}
+.IconRows1 {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.FoodResIcon {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 32px;
+}
+.restaurant {
+    display: grid;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+}
+.ResImg {
+    width: 312px;
+    height: 207px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.ResImgData {
+    margin-top: 4px;
+    position: relative;
+    width: 312px;
+    height: 207px;
+    
+}
+.ResOff {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: grid;
+    align-content: end;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    height: calc(71px);
+    background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+    border-radius: 16px;
+}
+.offText {
+    text-transform: uppercase;
+    font-family: ProximaNovaCond_Black;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.92);
+}
+.ResData {
+    margin-left: 12px;
+}
+.ResName {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    width: 100%;
+    margin-top: 4px;
+}
+.ResRating {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    gap: 2px;
+    font-family: Basis_Grotesque_Pro_Bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.starIcon {
+    margin-top: -2px;
+}
+.rateAndwaitTime {
+    margin-top: -2px;
+    margin-left: 3px;
+}
+.ResAddress {
+    display: grid;
+    align-items: center;
+    margin-top: 2px;
+    gap: 2px;
+}
+.placeAndState {
+    -webkit-font-smoothing: antialiased;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    width: 100%;
+    color: rgba(2, 6, 12, 0.6);
+}
+.linebreak {
+    margin-bottom: 2px;
+}
+.filterSort {
+    margin: 0px calc(10% + 52px);
+    margin-top: 1%;
+}
+.filterPlacing {
+    height: 44px;
+    width: 100%;
+}
+.filterWidgets {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.filterOpt {
+    margin-right: 8px;
+    white-space: nowrap;
+}
+.filterBtnChip {
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 231);
+    padding: 9px 12px;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    display: inline-grid;
+    grid-auto-flow: column;
+    margin-right: 10px;
+}
+.ResImg1 {
+    width: 241px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.ResImgData1 {
+    margin-top: 4px;
+    position: relative;
+    width: 241px;
+    height: 160px;
+    
+}
+.ShowMoreBtn {
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 0px;
+    width: 100%;
+    max-width: 19.5rem;
+    margin: 0px auto;
+}
+.BtnDesign {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.BtnDesignContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Basis_Grotesque_Pro_Bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.BtnDesignContent a {
+    color: rgba(2, 6, 12, 0.75);
+}
+.Footer1 {
+    max-height: 136px;
+    justify-content: center;
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 104px;
+    background-color: rgb(240, 240, 245);
+}
+.F1data {
+    display: block;
+    width: 408px;
+    margin: auto 96px auto 0px;
+    max-height: 64px;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.F1img1 {
+    height: 64px;
+    margin: auto 12px;
+}
+
+.F1img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 208px;
+}
+.Footer2 {
+    margin: 0px;
+}
+.F2style {
+    background-color: black;
+    display: flex;
+    padding: 0px 17.5% 2rem;
+
+}
+.F21stCOL {
+    margin-top: calc(48px);
+}
+.F2col_sent {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 12px;  
+    width: 200px;
+}
+.Design {
+    display: flex;
+    margin-bottom: 8px;
+    color: white;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+
+}
+.F2img {
+    margin-top: -4px;
+    margin-right: 6px;  
+    width: 29px;
+    height: 32px;
+}
+
+.F21stCOL2 a {
+    color: white;
+    text-decoration: none;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 2px;  
+}
+.F21stCOL2 {
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: calc(54px);
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.f2column {
+    width: 190px;
+    height: 300px;
+}
+.containergrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    margin-left: calc(10% + 39px);
+    margin-right: calc(10% + 39px);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    gap: 8px;
+}
+.item {
+    width: 100%;
+    height: 100%;
+  }
+
+.img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+    
